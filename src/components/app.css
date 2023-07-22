@@ -1,0 +1,94 @@
+.TodoAppContainer{
+    width: 500px;
+    margin:100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.TodoAppForm{
+    display: flex;
+    gap: 5px;
+}
+
+.TodoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+.TodoAppBoton{
+    color: white;
+    background-color:rgba(26, 76, 169, 1) ;
+    border-radius: 3px;
+    transition:0.3s;   
+    cursor:pointer;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.TodoAppBoton:hover{
+    border-color: white;
+}
+
+
+.TodoAppsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.TodoAppContainer{
+    padding: 10px;
+    background-color: rgb(106, 90, 205,0.3);
+    border-radius:5px
+}
+
+.todoTitle{
+    flex: 1;
+    font-size: 20px;
+}
+
+.todoUpdateForm, .Todoinfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button{
+    border:1px solid black;
+    border-radius: 3px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgba(72 122, 221, 1) ;
+    color: white;
+    padding: 10px 20px;
+}
+
+.button-delete{
+    
+        border:1px solid black;
+        border-radius: 3px;
+        transition: 0.3s;
+        cursor: pointer;
+        background-color: rgba(169 26, 26, 1) ;
+        color: white;
+        padding: 10px 20px;
+    
+}
+
+.button:hover{
+    border-color: white;
+}
+.button-delete:hover{
+    border-color: white;
+}
+.titulo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
