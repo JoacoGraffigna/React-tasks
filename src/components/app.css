@@ -62,7 +62,7 @@
     border-radius: 3px;
     transition: 0.3s;
     cursor: pointer;
-    background-color: rgba(72 122, 221, 1) ;
+    background-color: rgb(72, 122, 221, 1) ;
     color: white;
     padding: 10px 20px;
 }
@@ -73,7 +73,7 @@
         border-radius: 3px;
         transition: 0.3s;
         cursor: pointer;
-        background-color: rgba(169 26, 26, 1) ;
+        background-color: rgb(169, 26, 26, 1) ;
         color: white;
         padding: 10px 20px;
     
