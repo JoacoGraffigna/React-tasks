@@ -40,7 +40,7 @@ export function TodoApp() {
 
   return (
     <div className="TodoAppContainer">
-    <h3 className="titulo">Creador de Tareas</h3>
+    <h3 className="titulo">Task Creator</h3>
       <form onSubmit={handleSubmit} className="TodoAppForm">
         <input onChange={handleChange} className="TodoInput" value={title} />
         <input
