@@ -92,3 +92,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media (max-width:600px) {
+    .TodoAppContainer{
+        width: 80;
+        margin:100px auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
