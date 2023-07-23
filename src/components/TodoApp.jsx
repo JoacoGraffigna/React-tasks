@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Todo } from "./todo";
-import "./app.css"
+import "./app.css";
 
 export function TodoApp() {
   const [title, settitle] = useState("");
@@ -34,13 +34,13 @@ export function TodoApp() {
   }
 
   function handleDelete(id) {
-    const temp = tareas.filter(item => item.id !== id);
+    const temp = tareas.filter((item) => item.id !== id);
     settareas(temp);
   }
 
   return (
     <div className="TodoAppContainer">
-    <h3 className="titulo">Task Creator</h3>
+      <h3 className="titulo">Task Creator</h3>
       <form onSubmit={handleSubmit} className="TodoAppForm">
         <input onChange={handleChange} className="TodoInput" value={title} />
         <input
