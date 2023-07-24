@@ -69,6 +69,10 @@
   padding: 10px 20px;
 }
 
+.todoUpdateForm .todoInput{
+  flex: 1;
+}
+
 .button-delete {
   display: flex;
   border: 1px solid black;
@@ -98,7 +102,7 @@
 @media (min-width: 1000px) {
   .TodoAppContainer {
     width: 60%;
-    height: 200px;
+    min-height: 200px;
     margin: 100px auto;
     display: flex;
     flex-direction: column;
